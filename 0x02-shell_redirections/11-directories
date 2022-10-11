@@ -1,2 +1,2 @@
 #!/bin/bash
-file -type d print | wc -1
+file -type d -print | wc -1
