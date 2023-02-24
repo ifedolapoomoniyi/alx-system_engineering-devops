@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-11;rgb:0000/0000/0000# using a conditional to alter the output of the 9th iteration of "Best School"
+# using a conditional to alter the output of the 9th iteration of "Best School"
 
 while ((i<10))
 do
