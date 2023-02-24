@@ -1,0 +1,1 @@
+## Here i learn more about shell script writing, the public ssh key, loops, expansions etc
