@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# using a conditional to alter the output of the 9th iteration of "Best School"
+
+while ((i<10))
+do
+	echo "Best School"
+	if ((i==8))
+	then
+	    echo "Hi"
+	fi
+	((i++))
+done
