@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Creates an Rsa key pair called school with 4096 bits
+
+ssh-keygen -b 4096 -N betty -f school
+
