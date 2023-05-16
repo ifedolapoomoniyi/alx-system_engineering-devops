@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# redirects all incoming traffi from port 8080 to port 80/tcp
+
+sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
