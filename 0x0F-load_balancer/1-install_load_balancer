@@ -32,7 +32,7 @@ defaults
 backend myservers
 	balance roundrobin
 	server 183475-web-01 54.210.88.110:80 check
-	server 183475-web-01 34.203.201.43:80 check
+	server 183475-web-02 34.203.201.43:80 check
 frontend myfrontend
 	bind :80
 	mode http
